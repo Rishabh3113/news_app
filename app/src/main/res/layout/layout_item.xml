@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+     android:backgroundTint="@color/black"
+        app:cardCornerRadius="14dp"
+        android:layout_margin="4dp"
+        android:id="@+id/cardview"
+        app:cardElevation="34dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="Heading"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:id="@+id/heading"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:maxLines="2"
+                android:ellipsize="end"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="260dp"
+                    android:layout_height="match_parent"
+                    android:textStyle="normal"
+                    android:text="content"
+                    android:id="@+id/content"
+                    android:textColor="@color/white"
+                    android:ellipsize="end"
+                    android:maxLines="5"
+                    android:textSize="19sp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/wf"
+                    android:id="@+id/imageview" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:textSize="15sp"
+                android:textColor="@color/teal_200"
+                android:text="BY RISHABH "
+                android:id="@+id/author"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/published"
+                android:textStyle="bold"
+                android:text="PUBLISHED"
+                 android:textColor="@color/blue"
+                android:textSize="19sp"/>
+
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

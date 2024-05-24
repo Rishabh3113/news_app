@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "811142838723",
+    "project_id": "live-cricket-f9cdb",
+    "storage_bucket": "live-cricket-f9cdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:811142838723:android:7736a79054d259d46d6576",
+        "android_client_info": {
+          "package_name": "com.example.livecricket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "811142838723-40dbesf90bskugp3io85r9j41sujrsiv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.livecricket",
+            "certificate_hash": "7b4208259ba5cd63766e803aa630090ddb996efb"
+          }
+        },
+        {
+          "client_id": "811142838723-afsrc9mnt0qe36lo60uvc7priacj5po4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVzOgfSq0G1PsTLPqvtG-9EK1H1uX8vhs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "811142838723-afsrc9mnt0qe36lo60uvc7priacj5po4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

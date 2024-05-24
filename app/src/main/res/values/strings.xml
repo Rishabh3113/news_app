@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WOLF NEWS</string>
+    <string name="cric">afe9b9da-fec1-448c-9e2a-0b6d8a823728</string>
+    <string name="manifest">  android:label="@string/app_name"</string>
+
+    <string name="stauts"><item name="android:statusBarColor">?attr/colorPrimaryVariant</item></string>
+</resources>
